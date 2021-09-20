@@ -170,3 +170,117 @@ Greys:
   justify-content: center;
   position: relative;
 }
+
+/***********************/
+/* FEATURED IN */
+/***********************/
+.features {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-features-in {
+  font-size: 1.4rem;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
+
+/***********************/
+/* MEALS SECTION */
+/***********************/
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.1);
+}
+
+.meal-container {
+  padding: 2.4rem 3.2rem 3.2rem;
+}
+
+.meal-tags {
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+}
+
+.categories {
+  padding: 0.8rem 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background-color: #51cf66;
+  color: #333;
+  display: inline-block;
+  border-radius: 10rem;
+}
+
+.vegan {
+  background-color: #94d82d;
+}
+
+.palio {
+  background-color: #ffd43b;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+.meal-attr {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.list-items {
+  font-size: 1.8rem;
+}
+
+.all-recipes {
+  font-size: 1.8rem;
+  text-align: center;
+}
